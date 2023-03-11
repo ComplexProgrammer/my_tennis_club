@@ -1,0 +1,13 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <title>C0mplex</title>
+    <link href="{% static 'css/base.css' %}" rel="stylesheet"/>
+<body>
+<header><a href="{% url 'members' %}">members</a></header>
+<div>
+    {%block content%}
+    {%endblock content%}
+</div>
+</body>
+</html>

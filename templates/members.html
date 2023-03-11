@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% for item in members %}
+    <h2>{{ item.firstname }}</h2>
+    <h2>{{ item.lastname }}</h2>
+    {% endfor %}
+{% endblock content %}
